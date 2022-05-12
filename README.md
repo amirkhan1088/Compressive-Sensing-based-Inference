@@ -3,7 +3,6 @@ This work deals with high-level inference (face recognition) using compressive s
 ## How does it function?
 This work has two main files Face_detection_using_CS.m and sigma_delta_UD_Cunter_col.m and the third is a readme.md. The first file is the main file and holds the code for the main program. The second file is a function to perform Sigma-Delta ADC which is called by the first file. Keep the two files in the same folders. The downloaded dataset (links given below) must be kept in rootFolder (keep this also in the same folder as that of files) with the name of subfolders as mentioned in the main program (Face_detection_using_CS.m). Run one of the cells among three, corresponding to the dataset being simulated. The result of the program is the accuracy of SVM on the test dataset. Since the program uses random functions ('randi' and 'randsrc') and hence multiple runs will give different answers as no seed has been used to observe the performance of the scheme for different random runs with different pixels selected and modulated at each run. To get the average performance, it is proposed that run the program 10 times and take the average accuracy. A single run also produces accuracy in the vicinity of the reported results.
 ### databases can be downloaded from the following links
-1. AT&T dataset https://www.kaggle.com/kasikrit/att-database-of-faces (original link https://www.cl.cam.ac.uk/
-research/dtg/attarchive/facedatabase.htm)
+1. AT&T dataset https://www.kaggle.com/kasikrit/att-database-of-faces (original link https://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.htm)
 2. Extended Yale B (cropped) http://vision.ucsd.edu/~leekc/ExtYaleDatabase/ExtYaleB.html
 3. Georgia Tech Face Database https://computervisiononline.com/dataset/1105138700
